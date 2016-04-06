@@ -1,0 +1,26 @@
+{
+  "name": "redux-voting-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "test": "./node_modules/mocha/bin/mocha --compilers js:babel/register --recursive",
+    "test:watch": "npm run test -- --watch",
+    "debug": "iron-node debug.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "chai": "^3.3.0",
+    "chai-immutable": "^1.3.0",
+    "mocha": "^2.3.3",
+    "watch": "^0.16.0"
+  },
+  "dependencies": {
+    "immutable": "^3.7.5",
+    "redux": "^3.0.2",
+    "socket.io": "^1.3.7"
+  }
+}
